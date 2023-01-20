@@ -40,7 +40,13 @@ const calcular = () => {
         </ul>
       `
       }
-
+    
     }
+   
   }
+
+  radioGramas.forEach(element => {
+    element
+  });
+  
 };
