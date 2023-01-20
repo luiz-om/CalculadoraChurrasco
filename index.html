@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Churrasco HT</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="panel">
+      <div>
+        <h1>Calculadora Churrasco <img id="churras" src="img/churrasco.png" alt=""></h1>
+        
+      </div>
+      <div class="campo">
+      <input type="number" id="criancas" placeholder="Quantidade de Crianças"/>
+      <input type="number" id="adultos" placeholder="Quantidade de Adultos"/>
+    </div>
+    <div>
+        <label for="">Peso em gramas</label>
+        <input type="radio" name="medida" id="gramas" class="unidade">
+
+        <label for="">Peso em kilogramas</label>
+        <input type="radio" name="medida" id="kilograma" class="unidade">
+    </div>
+    <div>
+      <input class="botao" onclick="calcular()" type="button" value="Calcular" />
+    </div>
+    <div class="resultados">
+        <label for="">Carne Adultos: </label>
+        <p id="qtdCarneAdulto"></p>
+        <label for="">Carne Crianças</label>
+        <p id="qtdCarneCriancas"></p>
+        
+    </div>
+    <div>
+        <p id="resultado"></p>
+    </div>
+</div>
+    <script src="calculadoraChurrasco.js"></script>
+  </body>
+
+
 </html>
