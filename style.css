@@ -6,7 +6,7 @@ body {
   background-image: url(img/dicas-para-churrasco.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  }
+}
 
 div {
   margin-top: 15px;
@@ -24,18 +24,21 @@ div {
   height: 500px;
   border-radius: 15px;
 }
-.campo{
+
+.campo {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 .campo input {
   height: 30px;
   width: 190px;
   color: black;
   text-align: center;
 }
+
 .unidade {
   font-size: 15px;
   width: 20px;
@@ -47,17 +50,42 @@ div {
   height: 25px;
   width: 60px;
 }
+
 .botao:hover {
   background-color: blanchedalmond;
   cursor: pointer;
 }
+
 input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
+
 #churras {
   width: 50px;
   height: 50px;
 }
+
 li {
   list-style-type: none;
+}
+
+#teste {
+  margin: auto;
+  background-color: aliceblue;
+  height: 310px;
+  width: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+
+
+}
+
+.btn {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  background-color: rebeccapurple;
+
 }
