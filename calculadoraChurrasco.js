@@ -5,7 +5,9 @@ let qtdCarneAdulto
 let qtdCarneCriancas
 let radioGramas = document.getElementsByName("medida");
 let painel= document.getElementById('panel')
+//====
 
+//=======
 painel.addEventListener('keypress', function (e) {
   if (e.key === 'Enter') {
     calcular()
